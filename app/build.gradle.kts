@@ -42,7 +42,8 @@ dependencies {
     implementation(libs.androidx.compose.material3)
 
 
-
+//icons
+    implementation(libs.compose.icons)
 //room
     implementation(libs.bundles.room)
     ksp(libs.room.compiler)
